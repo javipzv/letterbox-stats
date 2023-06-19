@@ -1,0 +1,109 @@
+body{
+    height: 10ch;
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+nav{
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 8ch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3ch;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gray;
+    text-align: center;
+    color: black;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: white;
+}
+
+.name{
+    display: flex;
+    background-color: gray;
+    height: 15ch;
+    line-height: 15ch;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 40ch;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: white;
+}
+
+.name form{
+    margin-left: 3%;
+    font-size: 3ch;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.username{
+    font-size: 2ch;
+}
+
+.sub{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.8ch;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.results{
+    display: flex;
+    background-color: gray;
+    height: 75ch;
+    line-height: 15ch;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20ch;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: white;
+}
+
+.directors{
+    width: 50%;
+    height: 75ch;
+    float: left;
+    background-color: white;
+}
+
+.actors{
+    width: 50%;
+    height: 75ch;
+    float: right;
+    background-color: black;
+    color: white;
+}

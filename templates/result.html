@@ -11,13 +11,13 @@
     <nav>
         <h1>¡Discover your Letterbox stats!</h1>
     </nav>
-    <div class="name">
-        <form method="POST" action="{{url_for('show_results')}}">
-            <p><b>Introduce your username:</b>
-                <input name="username" class="username" type="text"> 
-                <input class="sub" type="submit">
-            </p>
-        </form>        
+    <div class="results">
+        <div class="directors">
+            <p>Welcome {{username}}</p>
+        </div>
+        <div class="actors">
+            <p>Welcome {{username}}</p>
+        </div>      
     </div>
     <footer>
         <p>Javier Pérez Vargas</p>

@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from script import 
+from script import info_profile
 
 app = Flask(__name__)
 
