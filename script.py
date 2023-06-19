@@ -25,7 +25,7 @@ def info_profile(username):
 
     page_urls = []
     for i in range(1, int(pages) + 1):
-        page_urls += [f"https://letterboxd.com/{name}/films/page/" + str(i)]
+        page_urls += [f"https://letterboxd.com/{username}/films/page/" + str(i)]
 
     rs1 = request(page_urls)
 
