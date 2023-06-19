@@ -95,15 +95,21 @@ footer p{
 
 .directors{
     width: 50%;
-    height: 75ch;
+    height: 100%;
     float: left;
-    background-color: white;
 }
 
 .actors{
     width: 50%;
-    height: 75ch;
+    height: 100%;
     float: right;
-    background-color: black;
-    color: white;
+}
+
+table{
+    width: 100%;
+}
+
+th, td{
+    border-style: solid;
+    border-color: #BCBCBC;
 }

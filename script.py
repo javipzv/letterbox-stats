@@ -61,6 +61,5 @@ def info_profile(username):
 
     df_directors = df_directors.sort_values(by="Times", ascending=False)[1:10]
     df_actors = df_actors.sort_values(by="Times", ascending=False)[1:10]
-
+    
     return (df_directors, df_actors)
-

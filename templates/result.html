@@ -13,10 +13,42 @@
     </nav>
     <div class="results">
         <div class="directors">
-            <p>Welcome {{username}}</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Director</th>
+                        <th>Films</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in rows_dir %}
+                    <tr>
+                        {% for col, row_ in zip(cols_dir, row) %}
+                        <td>{{row_}}</td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
         </div>
         <div class="actors">
-            <p>Welcome {{username}}</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Actor</th>
+                        <th>Films</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in rows_act %}
+                    <tr>
+                        {% for col, row_ in zip(cols_act, row) %}
+                        <td>{{row_}}</td>
+                        {% endfor %}
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
         </div>      
     </div>
     <footer>
