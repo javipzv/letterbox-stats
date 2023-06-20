@@ -9,18 +9,18 @@
 <body>
     <div class="overlay"></div>
     <nav>
-        <h1>¡Discover your Letterbox stats!</h1>
+        <h1>Welcome to this site! What do you want to do?</h1>
     </nav>
-    <div class="contact-link">
+    <div class="first-contact-link">
         <p><b>Click <a href="/contact">here</a> to contact me!</b></p>
     </div>
-    <div class="name">
-        <form method="POST" action="{{url_for('show_results')}}">
-            <p><b>Introduce your username:</b>
-                <input name="username" class="username" type="text"> 
-                <input class="sub" type="submit">
-            </p>
-        </form>        
+    <div class="choose">
+        <div class="option-one">
+            <p><b>Click <a href="/profile">here</a> if you want to see your stats</b></p>
+        </div>
+        <div class="option-two">
+            <p><b>Click <a href="/compare-profiles">here</a> if you want to compare two profiles</b></p>
+        </div>     
     </div>
     <footer>
         <p>Javier Pérez Vargas</p>

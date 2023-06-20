@@ -157,7 +157,34 @@ img{
     vertical-align: middle
 }
 
+.redirections{
+    height: 5ch;
+    width: auto;
+    margin-top: 1ch;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .contact-link{
+    background-color: gray;
+    color: black;
+    width: 25%;
+    float: right;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.first-contact-link{
     height: auto;
     width: auto;
     margin-top: 1ch;
@@ -175,13 +202,10 @@ img{
 }
 
 .go-back{
-    height: auto;
-    width: auto;
-    margin-top: 1ch;
-    margin-left: 10%;
-    margin-right: 76%;
     background-color: gray;
     color: black;
+    width: 25%;
+    float: left;
     border-radius: 4px;
     border-style: solid;
     border-color: white;
@@ -189,4 +213,72 @@ img{
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.choose{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: gray;
+    line-height: 7ch;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20ch;
+    align-items: center;
+}
+
+.option-one{
+    width: 100%;
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: x-large;
+    border-style: solid;
+    border-color: #BCBCBC;
+    border-width: 3px;
+}
+
+.option-two{
+    width: 100%;
+    background-color: rgb(208, 135, 24);
+    text-align: center;
+    font-size: x-large;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #BCBCBC;
+}
+
+.usernames{
+    display: flex;
+    height: 40ch;
+    line-height: 15ch;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 35ch;
+    justify-content: center;
+    align-items: center;
+}
+
+.u1{
+    width: 150ch;
+    background-color: rgb(123, 145, 210);
+    border-style: solid;
+    border-color: white;
+}
+
+.u1 p, .u2 p{
+    margin-left: 11ch;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.u2{
+    width: 150ch;
+    background-color: rgb(68, 147, 147);
+    border-style: solid;
+    border-color: white;;
+}
+
+.submit2{
+    width: 50%;
+    margin-left: 25%;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
 }

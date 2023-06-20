@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/styles.css"/>
+    <title>LetterboxStats</title>
+</head>
+<body>
+    <div class="overlay"></div>
+    <nav>
+        <h1>Compare your Letterbox profiles!</h1>
+    </nav>
+    <div class="redirections">
+        <div class="contact-link">
+            <p><b>Click <a href="/contact">here</a> to contact me!</b></p>
+        </div>
+        <div class="go-back">
+            <p>Go <b><a href="/">back</a></b></p>
+        </div>
+    </div>
+    <div class="usernames">
+        <form class="form-usernames" method="POST" action="{{url_for('comparation')}}">
+            <div class="u1">
+                <p><b>Introduce the first username:</b>
+                    <input name="username1" class="username" type="text"> 
+                </p>
+            </div>
+            <div class="u2">
+                <p><b>Introduce the second username:</b>
+                    <input name="username2" class="username" type="text"> 
+                </p>
+            </div>
+            <input class="submit2" type="submit" >            
+        </form>
+    </div>
+    <footer>
+        <p>Javier Pérez Vargas</p>
+    </footer>
+</body>
+</html>
