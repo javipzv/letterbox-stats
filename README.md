@@ -9,4 +9,4 @@ Enhance your Letterboxd experience with my web scraping application that provide
 Discover your most watched film directors and actors based on the movies you've viewed. Explore personalized statistics that go beyond what Letterboxd offers, adding an intriguing dimension to your film journey.
 
 ## Visual
-<img width="960" alt="cap" src="https://github.com/javipzv/letterbox-profile-stats/assets/90279135/823e9f83-0544-43bb-93e6-819fec88c7d3">
+<img width="960" alt="cap" src="https://github.com/javipzv/letterbox-profile-stats/assets/90279135/8879dc44-6fd1-4755-a2e3-97e41a218e27">
