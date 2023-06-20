@@ -29,7 +29,6 @@ def info_profile(username):
 
     rs1 = request(page_urls)
 
-    directors = {}
     film_urls = []
 
     for html_content in rs1:
@@ -59,7 +58,7 @@ def info_profile(username):
     df_actors = pd.DataFrame(actors.items(), columns=["Actor", "Times"])
     df_actors = df_actors[df_actors['Actor'] != "Show All…"]
 
-    df_directors = df_directors.sort_values(by="Times", ascending=False)[1:10]
-    df_actors = df_actors.sort_values(by="Times", ascending=False)[1:10]
-    
+    df_directors = df_directors.sort_values(by="Times", ascending=False)[:10]
+    df_actors = df_actors.sort_values(by="Times", ascending=False)[:10]
+
     return (df_directors, df_actors)

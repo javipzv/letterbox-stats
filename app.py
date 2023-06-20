@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from script import info_profile
+from scripts.script import info_profile
 import pandas as pd
 
 app = Flask(__name__)

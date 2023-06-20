@@ -91,25 +91,42 @@ footer p{
     border-radius: 8px;
     border-style: solid;
     border-color: white;
+    overflow: hidden;
 }
 
 .directors{
     width: 50%;
     height: 100%;
     float: left;
+    box-sizing: border-box;
+    overflow: auto;
+    background-color: bisque;
 }
 
 .actors{
     width: 50%;
     height: 100%;
     float: right;
+    box-sizing: border-box;
+    overflow: auto;
+    background-color: bisque;
 }
 
 table{
     width: 100%;
+    table-layout: fixed;
+    font-size:x-large;
 }
 
-th, td{
+th{
+    text-align: center;
     border-style: solid;
     border-color: #BCBCBC;
+    background-color: burlywood;
+} 
+
+td{
+    border-style: solid;
+    border-color: #BCBCBC;
+    text-align: center;
 }
