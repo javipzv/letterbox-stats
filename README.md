@@ -7,3 +7,6 @@ as well as meet and interact with other cinephiles. Films can be rated, reviewed
 
 Enhance your Letterboxd experience with my web scraping application that provides unique insights into your movie-watching habits. 
 Discover your most watched film directors and actors based on the movies you've viewed. Explore personalized statistics that go beyond what Letterboxd offers, adding an intriguing dimension to your film journey.
+
+
+<img width="960" alt="cap" src="https://github.com/javipzv/letterbox-profile-stats/assets/90279135/823e9f83-0544-43bb-93e6-819fec88c7d3">
