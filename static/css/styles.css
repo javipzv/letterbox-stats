@@ -130,3 +130,63 @@ td{
     border-color: #BCBCBC;
     text-align: center;
 }
+
+.contact{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    background-color: gray;
+    height: 65ch;
+    line-height: 15ch;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 20ch;
+    align-items: center;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: white;
+    overflow: hidden;
+}
+
+.contact h1{
+    margin-left: 15%;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    vertical-align: middle
+}
+
+.contact-link{
+    height: auto;
+    width: auto;
+    margin-top: 1ch;
+    margin-left: 76%;
+    margin-right: 10%;
+    background-color: gray;
+    color: black;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.go-back{
+    height: auto;
+    width: auto;
+    margin-top: 1ch;
+    margin-left: 10%;
+    margin-right: 76%;
+    background-color: gray;
+    color: black;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

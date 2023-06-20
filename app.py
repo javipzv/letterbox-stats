@@ -20,5 +20,9 @@ def show_results():
                            rows_act = actors.values.tolist(),
                            zip=zip)
 
+@app.route("/contact", methods=["GET"])
+def contact_me():
+    return render_template('contact.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
