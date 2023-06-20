@@ -215,6 +215,23 @@ img{
     text-align: center;
 }
 
+.first-go-back{
+    height: auto;
+    width: auto;
+    margin-top: 1ch;
+    margin-left: 10%;
+    margin-right: 76%;
+    background-color: gray;
+    color: black;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .choose{
     font-family: 'Courier New', Courier, monospace;
     background-color: gray;

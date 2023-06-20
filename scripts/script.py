@@ -16,10 +16,15 @@ def info_profile(username):
     headers = {"user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
                             "(KHTML, like Gecko) Ubuntu Chromium/71.0.3578.80 "
                             "Chrome/71.0.3578.80 Safari/537.36"}
-
     url = f"https://letterboxd.com/{username}/films/"
     page = requests.get(url, headers=headers)
     tree = html.fromstring(page.content)
+
+    error = False
+    possible_error = tree.xpath("//body[@class='error message-dark']")
+    if possible_error:
+        error = True
+        return (None, None, error)
 
     pages = tree.xpath('/html/body/div[1]/div/div/section/div[2]/div[3]/ul/li/a')[-1].text
 
@@ -61,4 +66,4 @@ def info_profile(username):
     df_directors = df_directors.sort_values(by="Times", ascending=False)[:10]
     df_actors = df_actors.sort_values(by="Times", ascending=False)[:10]
 
-    return (df_directors, df_actors)
+    return (df_directors, df_actors, error)

@@ -16,14 +16,17 @@ def write_username():
 @app.route("/profile/stats", methods=['POST', 'GET'])
 def show_results():
     username = request.form.get('username')
-    directors, actors = info_profile(username)
-    return render_template('stats.html', 
+    directors, actors, error = info_profile(username)
+    if not error:
+        return render_template('stats.html', 
                            username=username,
                            cols_dir = directors.columns.values,
                            cols_act = actors.columns.values, 
                            rows_dir = directors.values.tolist(),
                            rows_act = actors.values.tolist(),
                            zip=zip)
+    
+    return render_template('profile.html')
 
 @app.route("/compare-profiles", methods=["GET"])
 def compare_profiles():
