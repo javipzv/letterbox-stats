@@ -11,3 +11,4 @@ You can also compare the ratings of the movies you and other Letterboxd user hav
 
 ## Visuals
 <img width="960" alt="cap" src="https://github.com/javipzv/letterbox-profile-stats/assets/90279135/8879dc44-6fd1-4755-a2e3-97e41a218e27">
+<img width="960" alt="cap2" src="https://github.com/javipzv/letterbox-profile-stats/assets/90279135/5d3ecc18-32a1-4cde-a576-6a70c272d829">
