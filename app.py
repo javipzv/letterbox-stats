@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from scripts.script import info_profile, info_profile_aux, compare_profiles, compare_profiles_only_score
+from scripts.script import info_profile, compare_profiles
 
 app = Flask(__name__)
 
@@ -14,7 +14,7 @@ def write_username():
 @app.route("/profile/stats", methods=['POST', 'GET'])
 def show_results():
     username = request.form.get('username')
-    directors, actors, scores, error = info_profile_aux(username)
+    directors, actors, error = info_profile(username)
     if not error:
         return render_template('stats.html', 
                            username=username,
@@ -34,7 +34,7 @@ def page_compare_profiles():
 def show_comparation():
     u1 = request.form.get('username1')
     u2 = request.form.get('username2')
-    df_score = compare_profiles_only_score(u1, u2)
+    df_score = compare_profiles(u1, u2)
     return render_template('comparation.html',
                            username1 = u1,
                            username2 = u2,
