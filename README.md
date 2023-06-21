@@ -1,4 +1,4 @@
-# letterbox-profile-stats
+# Letterbox Stats
 A web scraping application that retrieves the most viewed directors and actors of a Letterboxd user based on their watched movies.
 
 This application uses data from Letterboxd. Letterboxd is a site that allows users to share their taste in films.
