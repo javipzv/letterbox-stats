@@ -299,3 +299,32 @@ img{
     font-size: xx-large;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.result-comparation{
+    width: 70%;
+    height: 55ch;
+    margin-top: 7%;
+    margin-left: 15%;
+    float: left;
+    box-sizing: border-box;
+    overflow: auto;
+    background-color: bisque;
+}
+
+.comparation{
+    width: 100%;
+    table-layout: fixed;
+    font-size:x-large;
+}
+
+.comparation td, .comparation th{
+    height: 5ch;
+}
+
+.first-column{
+    background-color: chocolate;
+}
+
+.green-cell{
+    background-color: rgb(111, 219, 111);
+}

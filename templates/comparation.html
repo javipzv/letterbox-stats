@@ -16,10 +16,36 @@
             <p><b>Click <a href="/contact">here</a> to contact me!</b></p>
         </div>
         <div class="go-back">
-            <p>Go <b><a href="/">back</a></b></p>
+            <p>Go <b><a href="/compare-profiles">back</a></b></p>
         </div>
     </div>
-    <div class="results">      
+    <div class="result-comparation">
+        <table class="comparation">
+            <thead>
+                <tr>
+                    <th>Film</th>
+                    <th>Score: {{username1}}</th>
+                    <th>Score: {{username2}}</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in rows %}
+                <tr>
+                    {% for index, value in enumerate(row) %}
+                    {% if index == 0 %}
+                    <td class="first-column">{{value}}</td>
+                    {% else %}
+                    {% if (index == 1 and value > row[2]) or index == 2 and value > row[1] %}
+                    <td class="green-cell">{{value}}</td>
+                    {% else %}
+                    <td class="red-cell">{{value}}</td>
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>      
     </div>
     <footer>
         <p>Javier Pérez Vargas</p>
