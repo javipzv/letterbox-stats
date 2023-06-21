@@ -162,7 +162,11 @@ def info_profile_only_films_score(username, comp = ""):
         return results
 
     def transform_valoration(val):
-        return val.count("★") + val.count("½")/2
+        value = -1
+        if val:
+            if val.__contains__("★") or val.__contains__("½"):
+                value = val.count("★") + val.count("½")/2
+        return value
 
     headers = {"user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
                             "(KHTML, like Gecko) Ubuntu Chromium/71.0.3578.80 "
@@ -216,9 +220,26 @@ def compare_profiles(u1, u2):
     return df_comp
 
 def compare_profiles_only_score(u1, u2):
+    def correct_titles(string):
+        abc = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+        result = string.replace("-", " ")
+        if result[0] in abc:
+            result = result[0].upper() + result[1:]
+        if result == "Argentina 1985":
+            return result
+        coincidencia = re.search("(.*)\s(\d{4})", string=result)
+        if coincidencia:
+            add = re.sub(".*\s(\d{4})", f" ({coincidencia.group(2)})", result)
+            result = coincidencia.group(1) + add
+        return result
+
     u1_score, error = info_profile_only_films_score(u1, u1)
     u2_score, error = info_profile_only_films_score(u2, u2)
     
     df_comp = pd.merge(u1_score, u2_score, on='title')
+
+    df_comp = df_comp.sort_values(by='title', ascending=True)
+
+    df_comp['title'] = list(map(correct_titles, df_comp['title']))
 
     return df_comp

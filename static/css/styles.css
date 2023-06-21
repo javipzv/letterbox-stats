@@ -309,6 +309,8 @@ img{
     box-sizing: border-box;
     overflow: auto;
     background-color: bisque;
+    border-style: solid;
+    border-color: white;
 }
 
 .comparation{
@@ -327,4 +329,42 @@ img{
 
 .green-cell{
     background-color: rgb(111, 219, 111);
+}
+
+.gray-cell{
+    background-color: gray;
+}
+
+.aditional{
+    height: 15ch;
+    line-height: 15ch;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 80ch;
+    background-color: gray;
+}
+
+.text-aditional{
+    width: 23.5%;
+    height: 15ch;
+    float: left;
+    text-align: center;
+    background-color: #BCBCBC;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.film-aditional{
+    height: 15ch;
+    width: 75%;
+    float: right;
+    text-align: center;
+    background-color: rgb(89, 214, 139);
+    border-style: solid;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
 }

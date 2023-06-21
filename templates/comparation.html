@@ -38,7 +38,11 @@
                     {% if (index == 1 and value > row[2]) or index == 2 and value > row[1] %}
                     <td class="green-cell">{{value}}</td>
                     {% else %}
+                    {% if value == -1 %}
+                    <td class="gray-cell">Not evaluated</td>
+                    {% else %}
                     <td class="red-cell">{{value}}</td>
+                    {% endif %}
                     {% endif %}
                     {% endif %}
                     {% endfor %}
