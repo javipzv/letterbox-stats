@@ -30,12 +30,12 @@ def show_results():
 def page_compare_profiles():
     return render_template('compare-profiles.html')
 
-@app.route("/comparation-stats", methods=['POST', 'GET'])
-def show_comparation():
+@app.route("/comparison-stats", methods=['POST', 'GET'])
+def show_comparison():
     u1 = request.form.get('username1')
     u2 = request.form.get('username2')
     df_score = compare_profiles(u1, u2)
-    return render_template('comparation.html',
+    return render_template('comparison.html',
                            username1 = u1,
                            username2 = u2,
                            cols = df_score.columns.values,
