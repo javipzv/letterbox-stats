@@ -14,3 +14,6 @@ You can also compare the ratings of the movies you and other Letterboxd user hav
 
 ## Visual 2: Profiles Comparison
 <img width="960" alt="cap2" src="https://github.com/javipzv/letterbox-profile-stats/assets/90279135/dc568c01-c439-4177-9ef3-a56749f6c873">
+
+## How to try it
+I have created a Google Colab to try it: https://colab.research.google.com/drive/1WP4RFnmLC8zPZ9EWEex43l2_vHLPZJ3u. Recommended Google Chrome.
