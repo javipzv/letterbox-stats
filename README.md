@@ -10,10 +10,10 @@ Discover your most watched film directors and actors based on the movies you've 
 You can also compare the ratings of the movies you and other Letterboxd user have seen, allowing you to see which type of movies you like more than other person and viceverse.
 
 ## Visual 1: Profile Stats
-<img width="960" alt="cap" src="https://github.com/javipzv/letterbox-profile-stats/assets/90279135/8879dc44-6fd1-4755-a2e3-97e41a218e27">  
+![Imagen1](https://github.com/javipzv/letterbox-stats/assets/90279135/d348ca20-3001-49b5-ad4b-7ba8fcfe7836)  
 
 ## Visual 2: Profiles Comparison
-<img width="960" alt="cap2" src="https://github.com/javipzv/letterbox-profile-stats/assets/90279135/dc568c01-c439-4177-9ef3-a56749f6c873">
+![Imagen2](https://github.com/javipzv/letterbox-stats/assets/90279135/f867de83-0a53-4bd4-a2c2-14eef70cae77)
 
 ## How to try it
 I have created a Google Colab to try it: https://colab.research.google.com/drive/1WP4RFnmLC8zPZ9EWEex43l2_vHLPZJ3u. Recommended Google Chrome.
