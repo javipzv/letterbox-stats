@@ -10,7 +10,7 @@ Discover your most watched film directors and actors based on the movies you've 
 You can also compare the ratings of the movies you and other Letterboxd user have seen, allowing you to see which type of movies you like more than other person and viceverse.
 
 ## Visual 1: Profile Stats
-<img width=500px src="https://github.com/javipzv/letterbox-stats/assets/90279135/d348ca20-3001-49b5-ad4b-7ba8fcfe7836"></img>
+<img width=1500px src="https://github.com/javipzv/letterbox-stats/assets/90279135/d348ca20-3001-49b5-ad4b-7ba8fcfe7836"></img>
 
 ## Visual 2: Profiles Comparison
 ![Imagen2](https://github.com/javipzv/letterbox-stats/assets/90279135/f867de83-0a53-4bd4-a2c2-14eef70cae77)
