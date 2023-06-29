@@ -24,7 +24,7 @@ nav{
     justify-content: center;
     align-items: center;
     font-size: 3ch;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial;
     background-color: gray;
     text-align: center;
     color: black;
@@ -51,7 +51,7 @@ nav{
 .name form{
     margin-left: 3%;
     font-size: 3ch;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial;
     color: black;
 }
 
@@ -60,7 +60,7 @@ nav{
 }
 
 .sub{
-    font-family:'Courier New', Courier, monospace;
+    font-family:Arial;
     font-size: 1.8ch;
 }
 
@@ -132,7 +132,7 @@ td{
 }
 
 .contact{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial;
     display: flex;
     background-color: gray;
     height: 65ch;
@@ -164,7 +164,7 @@ img{
     margin-left: 10%;
     margin-right: 10%;
     color: black;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -178,7 +178,7 @@ img{
     border-radius: 4px;
     border-style: solid;
     border-color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -195,7 +195,7 @@ img{
     border-radius: 4px;
     border-style: solid;
     border-color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -209,7 +209,7 @@ img{
     border-radius: 4px;
     border-style: solid;
     border-color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -226,14 +226,14 @@ img{
     border-radius: 4px;
     border-style: solid;
     border-color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
 .choose{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial;
     background-color: gray;
     line-height: 7ch;
     margin-left: 15%;
@@ -283,7 +283,7 @@ img{
 .u1 p, .u2 p{
     margin-left: 11ch;
     font-size: x-large;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial;
 }
 
 .u2{
@@ -297,7 +297,7 @@ img{
     width: 50%;
     margin-left: 25%;
     font-size: xx-large;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial;
 }
 
 .result-comparison{
@@ -355,7 +355,7 @@ img{
     text-align: center;
     border-style: solid;
     border-color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial;
 }
 
 .film-aditional{
@@ -366,5 +366,5 @@ img{
     background-color: rgb(89, 214, 139);
     border-style: solid;
     border-color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial;
 }
