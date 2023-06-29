@@ -9,11 +9,5 @@ Enhance your Letterboxd experience with my web scraping application that provide
 Discover your most watched film directors and actors based on the movies you've viewed. Explore personalized statistics that go beyond what Letterboxd offers, adding an intriguing dimension to your film journey.
 You can also compare the ratings of the movies you and other Letterboxd user have seen, allowing you to see which type of movies you like more than other person and viceverse.
 
-## Visual 1: Profile Stats
-<img width="960" alt="cap2" src="https://github.com/javipzv/letterbox-stats/assets/90279135/7c9bb9e7-6276-4894-8484-4b1d7a281648">
-
-## Visual 2: Profiles Comparison
-![Imagen2](https://github.com/javipzv/letterbox-stats/assets/90279135/f867de83-0a53-4bd4-a2c2-14eef70cae77)
-
 ## How to try it
 I have created a Google Colab to try it: https://colab.research.google.com/drive/1WP4RFnmLC8zPZ9EWEex43l2_vHLPZJ3u. Recommended Google Chrome.
