@@ -182,13 +182,15 @@ img{
     justify-content: center;
     align-items: center;
     text-align: center;
+    cursor: pointer;
+    font-size: large;
 }
 
 .first-contact-link{
     height: auto;
     width: auto;
     margin-top: 1ch;
-    margin-left: 76%;
+    margin-left: 85%;
     margin-right: 10%;
     background-color: gray;
     color: black;
@@ -199,6 +201,8 @@ img{
     justify-content: center;
     align-items: center;
     text-align: center;
+    cursor: pointer;
+    font-size: large;
 }
 
 .go-back{
@@ -213,6 +217,8 @@ img{
     justify-content: center;
     align-items: center;
     text-align: center;
+    cursor: pointer;
+    font-size: large;
 }
 
 .first-go-back{
@@ -220,7 +226,7 @@ img{
     width: auto;
     margin-top: 1ch;
     margin-left: 10%;
-    margin-right: 76%;
+    margin-right: 70%;
     background-color: gray;
     color: black;
     border-radius: 4px;
@@ -230,6 +236,8 @@ img{
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: larger;
+    cursor: pointer;
 }
 
 .choose{
@@ -260,6 +268,10 @@ img{
     border-width: 3px;
     border-style: solid;
     border-color: #BCBCBC;
+}
+
+.option-one, .option-two{
+    cursor: pointer
 }
 
 .usernames{

@@ -47,4 +47,4 @@ def contact_me():
     return render_template('contact.html')
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
